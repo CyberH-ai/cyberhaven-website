@@ -1,14 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
 import React from "react";
-import "./App.css"; // Optional, you can use Tailwind or plain CSS
 
 export default function App() {
   return (
-    // Copy everything from your canvas (the entire <div className=... /> block)
+    ...<footer className="text-center py-8 text-sm text-gray-400">
+        &copy; {new Date().getFullYear()} CyberHaven Security LLP. All rights reserved.
+      </footer>
+    </div>
   );
 }
-
-
-export default App;
